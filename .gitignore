@@ -16,3 +16,9 @@ results/
 .env
 
 external_data_upload.py
+
+.pacman/
+.venv/
+.idea/
+__pycache__/
+*.pyc

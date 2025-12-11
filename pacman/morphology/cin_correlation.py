@@ -33,7 +33,8 @@ selected_feats = [
 ]
 
 # reading necessary data
-mitosis_feats = pd.read_excel(os.path.join(DATA_DIR, "ST1-tcga_mtfs.xlsx"))
+#mitosis_feats = pd.read_excel(os.path.join(DATA_DIR, "ST1-tcga_mtfs.xlsx"))
+mitosis_feats = pd.read_excel(os.path.join(DATA_DIR, "brain_df.xlsx"))
 mitosis_feats = mitosis_feats[
     ["bcr_patient_barcode", "type", "temperature"] + selected_feats
 ]
